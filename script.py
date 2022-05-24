@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """Hello I'm Ravana Api yakku bolav!  {},
+    START_TXT = """Hello I'm SponchPop!  {},
 
 My name is <a href=https://t.me/{}>{}</a>!
 
