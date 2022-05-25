@@ -34,7 +34,7 @@
 ## Deploy
 You can deploy this bot anywhere.
 
-<details><summary>Deploy to Heroku</summary>
+<details><summary>Deploy to Heroku or Railway</summary>
 <p>
 <br>
 <a href="https://telegram.dog/XTZ_HerokuBot?start=am9zcHJvamVjdHMvdGdtb3ZpZWJvdCBtYXN0ZXI">
