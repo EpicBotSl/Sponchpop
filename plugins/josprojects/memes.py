@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 
-# AESTHETIC------------ https://telegram.me/Josprojects ------------ #
+# AESTHETIC------------ https://t.me/RedMemeHub ------------ #
 
 def aesthetify(string):
     PRINTABLE_ASCII = range(0x21, 0x7f)
@@ -21,7 +21,7 @@ async def aesthetic(client, message):
     text = "".join(aesthetify(text))
     await status_message.edit(text)
 
-# DART------------ https://telegram.me/Josprojects ------------ #
+# DART------------ https://t.me/RedMemeHub ------------ #
 
 # EMOJI CONSTANTS
 DART_E_MOJI = "🎯"
@@ -32,7 +32,7 @@ DART_E_MOJI = "🎯"
     filters.command(["throw", "dart"])
 )
 async def throw_dart(client, message):
-    """ /throw an @AnimatedDart """
+    """ /throw an @RedMemeHub """
     rep_mesg_id = message.message_id
     if message.reply_to_message:
         rep_mesg_id = message.reply_to_message.message_id
@@ -43,7 +43,7 @@ async def throw_dart(client, message):
         reply_to_message_id=rep_mesg_id
     )
 
-# DICE------------ https://telegram.me/Josprojects ------------ #
+# DICE------------ https://t.me/RedMemeHub ------------ #
 
 # EMOJI CONSTANTS
 DICE_E_MOJI = "🎲"
@@ -65,7 +65,7 @@ async def roll_dice(client, message):
         reply_to_message_id=rep_mesg_id
     )
 
-# LUCK------------ https://telegram.me/Josprojects ------------ #
+# LUCK------------ https://t.me/RedMemeHub ------------ #
 
 # EMOJI CONSTANTS
 TRY_YOUR_LUCK = "🎰"
@@ -75,7 +75,7 @@ TRY_YOUR_LUCK = "🎰"
     filters.command(["luck", "cownd"])
 )
 async def luck_cownd(client, message):
-    """ /luck an @animatedluck """
+    """ /luck an @RedMemeHub """
     rep_mesg_id = message.message_id
     if message.reply_to_message:
         rep_mesg_id = message.reply_to_message.message_id
@@ -86,7 +86,7 @@ async def luck_cownd(client, message):
         reply_to_message_id=rep_mesg_id
     )
 
-# GOAL------------ https://telegram.me/Josprojects ------------ #
+# GOAL------------ https://t.me/RedMemeHub ------------ #
 
 # EMOJI CONSTANTS
 GOAL_E_MOJI = "⚽"
@@ -107,7 +107,7 @@ async def roll_dice(client, message):
         reply_to_message_id=rep_mesg_id
     )
 
-# RUNS------------ https://telegram.me/Josprojects ------------ #
+# RUNS------------ https://t.me/RedMemeHub ------------ #
 
 import random
 
