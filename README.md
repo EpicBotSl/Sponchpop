@@ -1,8 +1,7 @@
 # SponchPop Bot
-<img src= " https://telegra.ph/file/22fed103200009f3bc94b.jpg",
 
 <p align="center">
-  <img src="https://telegra.ph/file/9c71b73da433a000e7035.jpg" alt="https://t.me/SponchPopBot">
+  <img src="https://telegra.ph/file/22fed103200009f3bc94b.jpg" alt="https://t.me/SponchPopBot">
 </p>
 
 
