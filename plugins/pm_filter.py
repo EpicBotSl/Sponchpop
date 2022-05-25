@@ -1161,4 +1161,3 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
-https://telegra.ph/file/22fed103200009f3bc94b.jpg
