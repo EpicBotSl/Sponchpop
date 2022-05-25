@@ -1,6 +1,11 @@
 # SponchPop Bot
 <img src= " https://telegra.ph/file/22fed103200009f3bc94b.jpg",
 
+<p align="center">
+  <img src="https://telegra.ph/file/9c71b73da433a000e7035.jpg" alt="https://t.me/SponchPopBot">
+</p>
+
+
 ## Features
 
 - Auto Filter
@@ -95,8 +100,8 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/NightVissionSupport)
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/NightVission)
 
-## Credits 
-* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://t.me/SponchPopBot)
+## SponchPop Bot 
+* [![SponchPop](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://t.me/SponchPopBot)
 
 
 ## Thanks to 
