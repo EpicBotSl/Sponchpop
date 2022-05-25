@@ -1,4 +1,5 @@
 # SponchPop Bot
+<img src="https://telegra.ph/file/22fed103200009f3bc94b.jpg",
 
 ## Features
 
@@ -31,7 +32,7 @@
 * `IMDB`: Imdb, the view of information when making True/False.
 * `SINGLE_BUTTON`: choose b/w [single or double buttons](https://github.com/josprojects/tgmoviebot/issues/1) True/False.
 
-## Deploy
+## Deploy HEROKU Or RAILWAY
 You can deploy this bot anywhere.
 
 <details><summary>Deploy to Heroku or Railway</summary>
