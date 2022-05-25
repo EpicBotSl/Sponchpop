@@ -2,19 +2,19 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manuel Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
-- [x] File Store
+- Auto Filter
+- Manuel Filter
+- IMDB
+- Admin Commands
+- Broadcast
+- Index
+- IMDB search
+- Inline Search
+- Random pics
+- ids and User info 
+- Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- Spelling Check Feature
+- File Store
 
 ## Variables
 
@@ -67,19 +67,12 @@ You can deploy this bot anywhere.
 <a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fjosprojects%2Ftgmoviebot"
 ">
      <img height="30px" src="https://railway.app/button.svg">
-  </a>
-</p>
-<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/youtube/views/h6PtzFYaMxQ?style=social">
-</a>
-</p>
 
-</details>
 
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/josprojects/tgmoviebot
+git clone https://github.com/Captainamarica/HoT-cheese-Helper-Bot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -118,11 +111,11 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/JOSPSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/JosProjects)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/NightVissionSupport)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/NightVission)
 
 ## Credits 
-* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://telegram.dog/zautebot)
+* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://t.me/SponchPopBot)
 
 
 ## Thanks to 
@@ -131,7 +124,3 @@ python3 bot.py
  - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
  - Thanks To All Everyone In This Journey
 
-## Disclaimer
-[![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 3.0.](https://github.com/ZauteKm/Dingdi/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
