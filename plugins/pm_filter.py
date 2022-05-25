@@ -116,8 +116,8 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton(" Movie", url="https://t.me/+26XbUS8O3cM1MDU1"),
-                InlineKeyboardButton("Series ", url="https://t.me/+VWYQKLaIim4yNjk1")
+                InlineKeyboardButton(" Meme", url="https://t.me/RedMemeHub"),
+                InlineKeyboardButton("Update ", url="https://t.me/NightVission")
             ])
 
     btn.insert(0, [
@@ -386,7 +386,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ', url='https://t.me/NightVission')
             ],
             [
-                InlineKeyboardButton(' Series & Movie Club ', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton(' Meme ', url=f'https://t.me/RedMemeHub')
             ]
             ]
 
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ', url='https://t.me/NightVission')
             ],
             [
-                InlineKeyboardButton(' Series & Movie Club ', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton(' Meme ', url=f'https://t.me/RedMemeHub')
             ]
             ]
         await query.answer()
@@ -460,10 +460,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' Help', callback_data='help'),
             InlineKeyboardButton('About ', callback_data='about')
             ],[
-            InlineKeyboardButton(' Search here Movie ', switch_inline_query_current_chat='')
+            InlineKeyboardButton(' Search here Meme ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton(' Updates', url='https://t.me/NightVission'),
-            InlineKeyboardButton('Movie Club ', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Meme ', url='https://t.me/RedMemeHub')
             ],[
             InlineKeyboardButton(' Close the Menu ', callback_data='close_data')
         ]]
@@ -503,7 +503,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/AdultSearchXBot')
+            InlineKeyboardButton('Scraper Bot', url='https://t.me/NightVission_Api_scraperBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -938,11 +938,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton(" Movie", url="https://t.me/+26XbUS8O3cM1MDU1"),
-        InlineKeyboardButton("Series ", url="https://t.me/+VWYQKLaIim4yNjk1")
+        InlineKeyboardButton(" Meme", url="https://t.me/RedMemeHub"),
+        InlineKeyboardButton("update ", url="https://t.me/NightVission")
     ])
     btn.insert(0, [
-        InlineKeyboardButton(" Join Our Channel ",url="https://t.me/NightVission")
+        InlineKeyboardButton(" Join Our Channel🇱🇰 ",url="https://t.me/NightVission")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
@@ -996,12 +996,12 @@ async def auto_filter(client, msg, spoll=False):
             await message.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo="https://telegra.ph/file/82b5bbbab6d5e5593b6b2.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo="https://telegra.ph/file/22fed103200009f3bc94b.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(36000)
             await fek.delete()
             await msg.delete()
     else:
-        fuk = await message.reply_photo(photo="https://telegra.ph/file/8b42f6caf6ef5fd76766f.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo="https://telegra.ph/file/22fed103200009f3bc94b.jpg", caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(36000)
         await fuk.delete()
         await msg.delete()
@@ -1011,7 +1011,7 @@ async def auto_filter(client, msg, spoll=False):
 
 async def advantage_spell_chok(msg):
     query = re.sub(
-        r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|new|latest|br((o|u)h?)*|^h(e|a)?(l)*(o)*|mal(ayalam)?|t(h)?amil|file|that|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(u)?(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle(s)?)",
+        r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|meme(s)?|new|latest|br((o|u)h?)*|^h(e|a)?(l)*(o)*|mal(ayalam)?|t(h)?amil|file|that|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(u)?(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle(s)?)",
         "", msg.text, flags=re.IGNORECASE)  # plis contribute some common words
     search = msg.text
     query = query.strip() + " movie"
@@ -1019,14 +1019,14 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply("I couldn't find any meme in that name.")
         await asyncio.sleep(8)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
     gs_parsed = [re.sub(
-        r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|film|movie|series)',
+        r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|meme|series)',
         '', i, flags=re.IGNORECASE) for i in gs]
     if not gs_parsed:
         reg = re.compile(r"watch(\s[a-zA-Z0-9_\s\-\(\)]*)*\|.*",
@@ -1161,3 +1161,4 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
+https://telegra.ph/file/22fed103200009f3bc94b.jpg
