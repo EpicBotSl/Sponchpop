@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton(' Updates ', url='https://t.me/NightVission')
+                InlineKeyboardButton(' Updates ', url='https://t.me/EpicBotsSl')
             ],
             [
                 InlineKeyboardButton(' Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -31,7 +31,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgUAAxkBAAJ1k2IfDr7l8Hat1d-s1mnbBEsFXZWJAAL5BAACAdz5VOVw2x38ZZJ1HgQ', reply_markup=reply_markup, reply_to_message_id=message.message_id)
+        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgQAAxkBAAEFE_xirr9X8JdS9kW46QgfAAEDDpBXGGAAApgRAAJvuChQBKbnx1osKAYkBA', reply_markup=reply_markup, reply_to_message_id=message.message_id)
         await asyncio.sleep(60)
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
@@ -50,8 +50,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton(' Search here Movie ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton(' Updates🇱🇰', url='https://t.me/NightVission'),
-            InlineKeyboardButton('Meme Tube ', url='https://t.me/RedMemeHub')
+            InlineKeyboardButton(' Updates🇱🇰', url='https://t.me/EpicBotsSl'),
+            InlineKeyboardButton('Films ', url='https://t.me/NightVissionFilmes')
             ],[
             InlineKeyboardButton(' Close the Menu ', callback_data='close_data')
         ]]
@@ -98,8 +98,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton(' Search here Movie ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton(' Updates', url='https://t.me/NightVission'),
-            InlineKeyboardButton('Meme Tube ', url='https://t.me/RedMemeHub')
+            InlineKeyboardButton(' Updates', url='https://t.me/EpicBotsSl'),
+            InlineKeyboardButton('Meme Tube ', url='https://t.me/NightVissionFilms')
             ],[
             InlineKeyboardButton(' Close the Menu ', callback_data='close_data')
         ]]
@@ -250,11 +250,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton(' Support', url='https://t.me/NightVission'),
-            InlineKeyboardButton('Channel ', url='https://t.me/NightVission')
+            InlineKeyboardButton(' Support', url='https://t.me/EpicChats'),
+            InlineKeyboardButton('Channel ', url='https://t.me/EpicBotsSl')
         ],
         [
-            InlineKeyboardButton('Meme Tube ', url=f'https://t.me/RedMemeHub')
+            InlineKeyboardButton('Meme Tube ', url=f'https://t.me/NightVissionFilms')
         ]
         ]
     await client.send_cached_media(
