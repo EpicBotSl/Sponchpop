@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Captainamarica/HoT-cheese-Helper-Bot",
-    "repository": "https://github.com/Captainamarica/HoT-cheese-Helper-Bot",
+    "website": "https://github.com/EpicBotSl/Sponchpop",
+    "repository": "https://github.com/EpicBotSl/Sponchpop",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
