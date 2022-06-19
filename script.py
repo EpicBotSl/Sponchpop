@@ -21,13 +21,13 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/Captainamarica/HoT-cheese-Helper-Bot'>GitHub - Click here</a>
+Source: <a href='https://github.com/EpicBotSl/Sponchpop'>GitHub - Click here</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/NightVission'>NightVißsion Bots</a>
+- <a href='https://t.me/EpicBotsSl'>Epic Bots🌱</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/NightVissionSupport'>NightVißsion Support</a>"""
+- <a href='https://t.me/EpicChats'>Epic Chats🌱</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -54,7 +54,7 @@ Source: <a href='https://github.com/Captainamarica/HoT-cheese-Helper-Bot'>GitHub
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/NightVission)</code>
+<code>[Button Text](buttonurl:https://t.me/EpicBotsSl)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -279,7 +279,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/NightVission</code>
+<code>/short https://t.me/EpicBotsSl</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
