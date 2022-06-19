@@ -116,8 +116,8 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton(" Meme", url="https://t.me/RedMemeHub"),
-                InlineKeyboardButton("Update ", url="https://t.me/NightVission")
+                InlineKeyboardButton("Films", url="https://t.me/NightVissionFilms"),
+                InlineKeyboardButton("Update ", url="https://t.me/EpicBotsSl")
             ])
 
     btn.insert(0, [
@@ -382,11 +382,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton(' Support', url='https://t.me/NightVission'),
-                InlineKeyboardButton('Channel ', url='https://t.me/NightVission')
+                InlineKeyboardButton(' Support', url='https://t.me/EpicChats'),
+                InlineKeyboardButton('Channel ', url='https://t.me/EpicBotsSl')
             ],
             [
-                InlineKeyboardButton(' Meme ', url=f'https://t.me/RedMemeHub')
+                InlineKeyboardButton('Films', url=f'https://t.me/NighyVissionFilms')
             ]
             ]
 
@@ -436,11 +436,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton(' Support', url='https://t.me/NightVission'),
-                InlineKeyboardButton('Channel ', url='https://t.me/NightVission')
+                InlineKeyboardButton(' Support', url='https://t.me/EpicChats'),
+                InlineKeyboardButton('Channel ', url='https://t.me/EpicBotsSl')
             ],
             [
-                InlineKeyboardButton(' Meme ', url=f'https://t.me/RedMemeHub')
+                InlineKeyboardButton(' Films', url=f'https://t.me/NightVissionFilms')
             ]
             ]
         await query.answer()
@@ -462,8 +462,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton(' Search here Meme ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton(' Updates', url='https://t.me/NightVission'),
-            InlineKeyboardButton('Meme ', url='https://t.me/RedMemeHub')
+            InlineKeyboardButton(' Updates', url='https://t.me/EpicBotsSl'),
+            InlineKeyboardButton('Films ', url='https://t.me/NightVissionFilms')
             ],[
             InlineKeyboardButton(' Close the Menu ', callback_data='close_data')
         ]]
@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton(' Status', url='https://t.me/NightVission'),
+            InlineKeyboardButton(' Status', url='https://t.me/EpicBotsSl/20'),
             InlineKeyboardButton('Source ', callback_data='source')
             ],[
             InlineKeyboardButton(' How to Use ', callback_data='help')
